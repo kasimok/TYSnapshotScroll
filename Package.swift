@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "TYSnapshotScroll",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v11),
     ],
     products: [
         .library(
@@ -14,13 +14,12 @@ let package = Package(
     targets: [
         .target(
             name: "TYSnapshotScroll",
-            path: "TYSnapshotScroll",
+            //path: "Sources/TYSnapshotScroll",
             publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("Tools"),
                 .headerSearchPath("TYSnapshotAuxiliary")
             ])
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
 
