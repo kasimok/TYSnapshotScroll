@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "TYSnapshotScroll",
-            //path: "Sources/TYSnapshotScroll",
+            path: "Sources/TYSnapshotScroll",
             publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("Tools"),
